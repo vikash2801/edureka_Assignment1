@@ -1,0 +1,125 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration: none;
+}
+/*Header Css*/
+header{
+    height:60px;
+    color:#fff;
+    /* border:2px solid red; */
+    background-color:#3b2632
+}
+#brand{
+    float:left;
+    margin-left: 2%;
+    font-size:35px;
+    
+}
+#brand >a{
+    color: white !important
+}
+#social{
+    float:right;
+    margin-right: 2%;
+}
+.socialLogo{
+    height:50px
+}
+
+/**/
+#content{
+    width:80%;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top:2%
+}
+
+#filterDiv{
+    height:550px;
+    width:20%;
+    border:2px solid gray;
+    border-radius:4px;
+    float:left; 
+}
+.filter{
+    display: inline-block;
+    width:90%;
+    margin:5% 5%;
+}
+.filter h3{
+    color:gray;
+    font-weight:bold;
+}
+.keyfilter{
+    margin-top:-10px;
+}
+.keyfilter div{
+    border:1px solid black;
+    border-radius:14px;
+    padding:2%;
+    margin:5px;
+    display:inline-block;
+}
+
+#contentDiv{
+    width:75%;
+    margin-left:4%;
+    float:left;
+}
+#Search-box{
+    width: 80%;
+    margin: 0% 10%;
+}
+#Search-box input{
+    width: 100%;
+    font-family: sans-serif;
+    border-radius: 14px;
+    padding: 1%;
+}
+#foodcontent{
+    width:80%;
+    margin:3% 10%;
+    display:inline-block;
+}
+.food{
+    display: flex;
+    border-top: 2px groove brown;
+    margin-bottom: 35px;
+    background-color: #BACA9E;    
+}
+.imgDiv{
+    width: 45%;
+    height:200px;
+}
+.imgDiv img{
+    width:100%;
+    height:100%;
+}
+.details{
+    margin:5px 15px;
+}
+.bottomMarginZero{
+    margin-bottom: 0;
+}
+
+/*Footer Css*/
+footer{
+    margin-top:5%;
+    height:120px;
+    text-align: center;
+    background-color:#3b2632;
+    color:white
+    /* border:2px solid purple */
+}
+
+.footDiv{
+    height:70px;
+    width:33%;
+    float:left;
+    border-right:2px solid white
+}
+.noborder{
+    border:none
+}
