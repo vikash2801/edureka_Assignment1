@@ -1,5 +1,9 @@
 body{
-    margin:auto
+    margin:auto;
+    background-image:url("../image/wood.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
 }
 a{
     text-decoration: none;
@@ -37,11 +41,12 @@ header{
 }
 
 #filterDiv{
-    height:550px;
-    width:20%;
-    border:2px solid gray;
-    border-radius:4px;
-    float:left; 
+    height: 610px;
+    width: 20%;
+    border: 2px solid gray;
+    border-radius: 15px;
+    float: left;
+    background: #D7D4DC;
 }
 .filter{
     display: inline-block;
@@ -73,10 +78,26 @@ header{
     margin: 0% 10%;
 }
 #Search-box input{
+    border: 1px solid gray;
     width: 100%;
     font-family: sans-serif;
-    border-radius: 14px;
-    padding: 1%;
+    border-radius: 8px;
+    padding: 1% 2%;
+    outline: 0 none;
+    height: 35px;
+}
+.more-filters ul{
+    list-style: none;
+    width: 85%;
+    margin-left: 5%;
+}
+.more-filters ul li{
+    float:left;
+    margin-left:1%;
+    margin-right:1%;
+}
+.more-filters ul li button{
+    height:25px;
 }
 #foodcontent{
     width:80%;
@@ -85,7 +106,7 @@ header{
 }
 .food{
     display: flex;
-    border-top: 2px groove brown;
+    border-top: 4px groove brown;
     margin-bottom: 35px;
     background-color: #BACA9E;    
 }
@@ -100,10 +121,22 @@ header{
 .details{
     margin:5px 15px;
 }
-.bottomMarginZero{
-    margin-bottom: 0;
+strike{
+    color:red;
 }
-
+.details div{
+    margin-bottom:10px;
+}
+.bad-rating{
+    fill:red;
+    fill-rule: nonzero;
+}
+.bottomMarginZero{
+    margin-bottom: -20px;
+}
+.success{
+    color:green;
+}
 /*Footer Css*/
 footer{
     margin-top:5%;

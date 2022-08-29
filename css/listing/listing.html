@@ -31,27 +31,37 @@
                     <div><input type="checkbox" name="Italian" id="Italian"/>Italian</div>
                     <div><input type="checkbox" name="South Indian" id="SouthIndian"/>South Indian</div>      
                 </div>
-                <h3>Type</h3>
-                <div class="keyfilter">
-                    <div><input type="checkbox" name="Breakfast" id="Breakfast"/>Breakfast</div>
-                    <div><input type="checkbox" name="Lunch" id="Lunch"/>Lunch</div>
-                    <div><input type="checkbox" name="Dinner" id="Dinner"/>Dinner</div>
-                    <div><input type="checkbox" name="Veg" id="Veg"/>Veg</div>
-                    <div><input type="checkbox" name="Non-Veg" id="Non-Veg"/>Non-Veg</div>                    
-                </div> 
-                <h3>Others</h3>
+                <h3>Small party</h3>
                 <div class="keyfilter">
                     <div><input type="checkbox" name="Snacks" id="Snacks"/>Snacks</div>
                     <div><input type="checkbox" name="Cakes" id="Cakes"/>Cakes</div>
-                    <div><input type="checkbox" name="Beverages" id="Beverages"/>Beverages</div>
-                                        
+                    <div><input type="checkbox" name="Beverages" id="Beverages"/>Beverages</div>                    
                 </div>
-
+                <h3>Price</h3>
+                <div class="keyfilter">
+                    <div><input type="checkbox" name="small-party" id="small-party"/>Below 500</div>
+                    <div><input type="checkbox" name="average-party" id="average-party"/>500-1000</div>
+                    <div><input type="checkbox" name="party" id="party"/>above 1000</div>                    
+                </div>
+                <h3>Ratings</h3>
+                <div class="keyfilter">
+                    <div><input type="checkbox" name="three" id="three"/>Below 3</div>
+                    <div><input type="checkbox" name="four" id="four"/>4</div>
+                    <div><input type="checkbox" name="five" id="five"/>5</div>                    
+                </div>
             </div>
            </div>
            <div id="contentDiv">
                 <div id="Search-box">
                     <input type="text" name="Search" placeholder="Search your craving food" />
+                </div>
+                <div class="more-filters">
+                    <ul>
+                        <li><button>Popular</button></li>
+                        <li><button>Fast Delivery</button></li>
+                        <li><button>Veg</button></li>
+                        <li><button>Non-Veg</button></li>
+                    </ul>
                 </div>
                 <div id="foodcontent">
                     <div class="food">
@@ -61,8 +71,17 @@
                         <div class="details">
                             <h2>French Fries</h2>
                             <p>Healthy Snacks to enjoy with friends and family!! </p>
-                            <p>At Best price: Rs.45</p>
-                                
+                            <p>At Best price:<strike>Rs.45</strike><span class="success"> Rs.40</span></p>
+                            <div>
+                                <div class="ratings bad-rating">
+                                    <svg height="15" width="15">
+                                        <polygon points="7,0.7 3,13 13,6 0.7,6 12,13" />
+                                    </svg>
+                                    <span>2</span>
+                                </div>
+                                <div class="foottype veg"></div>
+                            </div>
+                               
                         </div>
                     </div>
                     <div class="food">
@@ -72,7 +91,7 @@
                         <div class="details">
                             <h2>Cocacola</h2>
                             <p>Refreshing beverage to make you lively!! </p>
-                            <p>At Best price: Rs.70</p>
+                            <p>At Best price:<strike>Rs.79</strike><span class="success"> Rs.69</span></p>
                                 
                         </div>
                     </div>
@@ -83,8 +102,38 @@
                         <div class="details">
                             <h2>Samosa with Chatni</h2>
                             <p>Healthy Snacks to enjoy with friends and family!! </p>
-                            <p>At Best price: Rs.35</p>
+                            <p>At Best price:<strike>Rs.45</strike><span class="success"> Rs.35</span></p>
                                 
+                        </div>
+                    </div>
+                    <div class="food">
+                        <div class="imgDiv">
+                                <img src="../image/dosa.jpg">
+                        </div>
+                        <div class="details">
+                            <h2>Masala Dosa</h2>
+                            <p>Fresh & healthy South Indian cuisine!! </p>
+                            <p>At Best price:<strike>Rs.99</strike><span class="success"> Rs.79</span></p>  
+                        </div>
+                    </div>
+                    <div class="food">
+                        <div class="imgDiv">
+                                <img src="../image/fish.jpg">
+                        </div>
+                        <div class="details">
+                            <h2>Fish fry</h2>
+                            <p>Heavy diet for protein seeker!! </p>
+                            <p>At Best price:<strike>Rs.199</strike><span class="success"> Rs.149</span></p>  
+                        </div>
+                    </div>
+                    <div class="food">
+                        <div class="imgDiv">
+                                <img src="../image/roti.jpg">
+                        </div>
+                        <div class="details">
+                            <h2>Roti</h2>
+                            <p>Light and healthy breakfast meal!! </p>
+                            <p>At Best price:<strike>Rs.75</strike><span class="success"> Rs.49</span></p>  
                         </div>
                     </div>
                     <div class="food bottomMarginZero">
@@ -94,8 +143,7 @@
                         <div class="details">
                             <h2>Cake for birthday</h2>
                             <p>Fresh Cake to celebrate birthday!! </p>
-                            <p>At Best price: Rs.350</p>
-                                
+                            <p>At Best price:<strike>Rs.399</strike><span class="success"> Rs.349</span></p>  
                         </div>
                     </div>
                 </div>
