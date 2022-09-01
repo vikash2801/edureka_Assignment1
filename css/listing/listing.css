@@ -13,7 +13,8 @@ header{
     height:60px;
     color:#fff;
     /* border:2px solid red; */
-    background-color:#3b2632
+    background-color:#3b2632;
+    position:sticky;
 }
 #brand{
     float:left;
@@ -37,7 +38,8 @@ header{
     width:80%;
     display: inline-block;
     margin-left: 10%;
-    margin-top:2%
+    margin-top:2%;
+    position:relative;
 }
 
 #filterDiv{
@@ -47,6 +49,7 @@ header{
     border-radius: 15px;
     float: left;
     background: #D7D4DC;
+   
 }
 .filter{
     display: inline-block;
@@ -106,7 +109,7 @@ header{
 }
 .food{
     display: flex;
-    border-top: 4px groove brown;
+    border-top: 4dpx groove brown;
     margin-bottom: 35px;
     background-color: #BACA9E;    
 }
@@ -129,6 +132,14 @@ strike{
 }
 .bad-rating{
     fill:red;
+    fill-rule: nonzero;
+}
+.good-rating{
+    fill:green;
+    fill-rule: nonzero;
+}
+.average-rating{
+    fill:rgb(92, 120, 163);
     fill-rule: nonzero;
 }
 .bottomMarginZero{
